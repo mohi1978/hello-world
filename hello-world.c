@@ -2,7 +2,11 @@
 // First repository created
 
 #include <stdio.h>
+#include "hello-world.h"
+
+extern char *msg;
+
 int main() {
-   printf("Hello, World! - First version for github");
+   printf(msg);
    return 0;
 }
